@@ -1,8 +1,129 @@
-/* .card {
-    border: 0px;
-} */
+* {
+    font-weight: 400;
+    font-size: 14px;
+}
 
 .img-fluid {
     width: auto;
     height: auto;
+}
+
+.navbar-nav {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin-left: 5em;
+}
+
+main {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.story__type,
+.story__comment,
+.card__type {
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card__type {
+    margin-top: 2em;
+}
+
+.story__header,
+.card__header {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.story__text,
+.card__text {
+    margin: 3em  0em;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    line-height: 24px;
+}
+
+.card__text {
+    max-height: 5em;
+    overflow-y: hidden;
+}
+
+.card {
+    margin-top: 5em;
+}
+
+.story-divider,
+.footer {
+    width: 98vw;
+    height: 15em;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #f0f0f0;
+}
+
+.more-btn {
+    padding: 1em;
+    border: 1px solid black;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.more-btn:hover {
+    color: #2265a8;
+    border: 1px solid #2265a8;
+    text-decoration:  none;
+}
+
+/*----------------*/
+    /*footer*/
+/*----------------*/
+
+.footer {
+    margin-top: 15em;
+    height: 3em;
+}
+
+.foot-terms {
+    justify-content: center;
+}
+
+.foot-social {
+    justify-content: flex-end;
+}
+
+.foot-terms-items,
+.foot-social-items{
+    margin: 0;
+    list-style: none;
+}
+
+.foot-terms-items a {
+    color: #626262;
+    font-family: "Playfair Display";
+}
+
+.foot-terms-items__item,
+.foot-social-items__item {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+.foot-social-items a {
+    color: black;
+    font-family: "Playfair Display";
 }

@@ -1,17 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <!-- Add icon library -->   
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CSS and bootstrap lesson</title>
-    </head>
-    <body>
-  <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minimo</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
             <a class="navbar-brand" href="#"> <img class="img-fluid" src="images/logo.png" alt="logo"></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
@@ -30,75 +33,131 @@
                 </ul>
             </div>
         </nav>
-        <!-- main -->
-        <main>
-            <div class="row">
-                    <div class="col-sm-12">
-                        <img class="img-fluid mb-4" src="images/mainimage.png" alt="main_photo">
-                    </div>
-            </div>
-            <div class="row">
-                        <div class="col-sm-12 ml-50">
-                            <h1>Hello, world!</h1>
-                            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            <hr>
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-                        </div>
-            </div>
-            <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card border-0">
-                            <img class="card-img-top" src="images/story1.png" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card border-0">
-                            <img class="card-img-top" src="images/story2.png" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                    </div>
-            </div>
-            
-            <div class="row">
-                    <div class="col-sm-12 subscribe">
-                        SUBSCRIBE
-                    </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="img-fluid mb-5" src="images/mainimage.png" alt="main_photo">
             </div>
         </div>
+    </header>
+    <!-- main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 story">
+                    <p class="story__type">Photodiary</p>
+                    <h1 class="story__header">The perfect weekend getaway</h1>
+                    <p class="story__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <p class="story__comment">Leave a comment</p>
+
+                </div>
+            </div>
+
+            <!--stories 1st row-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="images/story1.png" alt="story1">
+                        <div class="card-body p-0">
+                            <p class="card__type">Lifestyle</p>
+                            <h2 class="card__header">More than just a music festival</h2>
+                            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card border-0">
+                            <img class="card-img-top" src="images/story2.png" alt="story2">
+                            <div class="card-body p-0">
+                                <p class="card__type">Lifestyle</p>
+                                <h2 class="card__header">Life tastes better with coffee</h2>
+                                <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!--stories 2nd row-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="images/story3.png" alt="story3">
+                        <div class="card-body p-0">
+                            <p class="card__type">Photodiary</p>
+                            <h2 class="card__header">American dream</h2>
+                            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="images/story4.png" alt="story4">
+                        <div class="card-body p-0">
+                            <p class="card__type">Photodiary</p>
+                            <h2 class="card__header">A day exploring the Alps</h2>
+                            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row story-divider"></div>
+
+            <!--stories 3rd row-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="images/story5.png" alt="story5">
+                        <div class="card-body p-0">
+                            <p class="card__type">Lifestyle</p>
+                            <h2 class="card__header">Top 10 song for running</h2>
+                            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card border-0">
+                        <img class="card-img-top" src="images/story6.png" alt="story6">
+                        <div class="card-body p-0">
+                            <p class="card__type">Lifestyle</p>
+                            <h2 class="card__header">Cold winter days</h2>
+                            <div class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           <div class="row ">
+               <div class="col d-flex justify-content-center"><a href="#" class="more-btn">Load more</a></div>
+           </div>
+        </div>
+
+    </main>
 
         <!-- footer -->
         <footer class="footer">
             <div class="row">
-                <div class="col-sm-6 nav">
+                <div class="col-sm-6 nav foot-terms">
                     <nav>
-                    <ul class="foot-items">
-                        <li class="foot-items__item">Terms and conditions</li>
-                        <li class="foot-items__item">Privacy</li>
+                    <ul class="foot-terms-items">
+                        <li class="foot-terms-items__item"><a href="#">Terms and conditions</a></li>
+                        <li class="foot-terms-items__item"><a href="#">Privacy</a></li>
                     </ul>
                     </nav>
                 </div>
-                <div class="col-sm-6 nav social">
+                <div class="col-sm-6 nav foot-social">
                     <nav>
-                        <ul class="social-items">
-                            <li class="social-items__item"><a href="#" class="fa fa-facebook"></a></li>
-                            <li class="social-items__item"><a href="#" class="fa fa-twitter"></a></li>
+                        <ul class="foot-social-items">
+                            <li class="foot-social-items__item"><a href="#">Follow</a></li>
+                            <li class="foot-social-items__item"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                            <li class="foot-social-items__item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li class="foot-social-items__item"><a href=""><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-        </div>
-    </div>        
-        
+        </footer>
+
+  </div>
     </body>
 </html>
 
